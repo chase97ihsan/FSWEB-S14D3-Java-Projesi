@@ -1,6 +1,8 @@
-package com.workintech.polymorphism;
+package com.workintech.CarSkeleton;
 
-import javax.crypto.spec.PSource;
+import com.workintech.polymorphism.ElectricCar;
+import com.workintech.polymorphism.GasPoweredCar;
+import com.workintech.polymorphism.HybridCar;
 
 public class CarSkeleton {
 
@@ -33,7 +35,7 @@ public class CarSkeleton {
     protected void runEngine(CarSkeleton carSkeleton){
       if(carSkeleton instanceof GasPoweredCar){
        System.out.println("The car engine is starting with gas");
-}     else if (carSkeleton instanceof  HybridCar) {
+}     else if (carSkeleton instanceof HybridCar) {
        System.out.println("The car engine is starting as hybrid");
 }     else if (carSkeleton instanceof ElectricCar) {
 

@@ -1,5 +1,6 @@
 package com.workintech.main;
 
+import com.workintech.CarSkeleton.CarSkeleton;
 import com.workintech.polymorphism.*;
 
 public class Main {

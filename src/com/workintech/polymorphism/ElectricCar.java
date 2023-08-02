@@ -1,5 +1,7 @@
 package com.workintech.polymorphism;
 
+import com.workintech.CarSkeleton.CarSkeleton;
+
 public class ElectricCar extends CarSkeleton {
 
     public double avgKmPerCharge;

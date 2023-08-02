@@ -1,5 +1,7 @@
 package com.workintech.polymorphism;
 
+import com.workintech.CarSkeleton.CarSkeleton;
+
 public class HybridCar extends CarSkeleton {
 
     public double avgKmPerLitre;
